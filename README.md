@@ -1,1 +1,3 @@
 # scrabbing-and-sentiment
+
+In this project I obtained data from https://www.airlinequality.com/ via scrabbing with Selenium.Then, From Turkish airlines reviews, each pages include 100 comment I scarb and draw 25 pages and get almost 2400 reviews. In these reviews I manipulate related section and draw necessary information. and I prepared raw data for modelling. Following this, I made calssification sentiment analysis with Vader Sentiment and Hugging face model ("distilbert-base-uncased-finetuned-sst-2-english") and compare with customer recommends by classification model. Finally I made emotion analysis with Hugging face model("j-hartmann/emotion-english-distilroberta-base")
